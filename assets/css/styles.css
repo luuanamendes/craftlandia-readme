@@ -1,0 +1,28 @@
+@import url("contato.css");
+
+:root{
+    --branco: #FFFFFF;
+    --offwhite: #F1EDEA;
+    --marrom: #B1A086;
+    --cinza-claro: #828282;
+    --cinza-escuro: #232323;
+    --preto: #000000;
+    --font-principal: "Poppins";
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+    background-color: var(--offwhite);
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;  
+}
+
+main {
+    flex-grow: 1;
+}
